@@ -16,4 +16,6 @@ function sum(numbers) {
     return result
 }
 
-console.log(sum(generateArray(10)))
+const generatedArray = generateArray(10)
+const arraySum = sum(generatedArray)
+console.log(arraySum)
