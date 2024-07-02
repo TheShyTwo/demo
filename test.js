@@ -2,8 +2,8 @@ console.log('Generate array and find sum from 1 to n')
 
 function generateArray(n) {
     const result = []
-    for (let i = 0; i <= n; i++) {
-        result.push(i)
+    for (let i = 0; i < n; i++) {
+        result.push(i + 1)
     }
     return result
 }
